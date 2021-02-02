@@ -1,0 +1,6 @@
+{
+    "name": "alex/php_project",
+    "require": {
+        "monolog/monolog": "^2.2"
+    }
+}
