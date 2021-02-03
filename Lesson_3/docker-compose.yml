@@ -1,0 +1,28 @@
+version: '3.1'
+
+services:
+  adminer:
+    image: adminer:latest
+    container_name: adminer_mariadb
+    restart: always
+    ports:
+        - 7777:8080
+    networks:
+      - maria-network        
+  dbMysql:
+    image: mariadb
+    container_name: mariadb
+    restart: always    
+    environment:
+        MYSQL_ROOT_PASSWORD : root
+        MYSQL_DATABASE: mariadb
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - maria-network       
+networks:
+  maria-network:
+    driver: bridge
+
+volumes:
+  dbdata:
