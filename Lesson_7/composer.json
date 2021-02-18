@@ -1,0 +1,13 @@
+{
+    "name": "alex/php_rabbit",
+    "type": "project",
+    "authors": [
+        {
+            "name": "alex",
+            "email": "amalashenok@gmail.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": ">=2.9.0"
+    }
+}
