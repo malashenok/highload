@@ -1,0 +1,37 @@
+%{UUID}\s*\|\s*%{TIMESTAMP_ISO8601}\s*\|\s*%{LOGLEVEL}
+
+
+{
+  "UUID": [
+    "435261df7911286963e346d49ed15dd1"
+  ],
+  "TIMESTAMP_ISO8601": [
+    "2021-02-18T21:44:41.773286+0300"
+  ],
+  "YEAR": [
+    "2021"
+  ],
+  "MONTHNUM": [
+    "02"
+  ],
+  "MONTHDAY": [
+    "18"
+  ],
+  "HOUR": [
+    "21",
+    "03"
+  ],
+  "MINUTE": [
+    "44",
+    "00"
+  ],
+  "SECOND": [
+    "41.773286"
+  ],
+  "ISO8601_TIMEZONE": [
+    "+0300"
+  ],
+  "LOGLEVEL": [
+    "INFO"
+  ]
+}
